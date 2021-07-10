@@ -1,0 +1,194 @@
+/* Header */
+@media screen and (max-width: 300px) {
+    #header{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 200px) {
+    #header{
+        font-size: x-small;
+    }
+}
+
+/* Navigation Bar */
+
+@media screen and (max-width: 387px) {
+    
+}
+
+
+/* Tutorials */
+
+@media screen and (max-width: 1100px) {
+    .box ul li{
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .box ul li img{
+        width: 30vw;
+        height: 15vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .box ul li{
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .box ul li img{
+        width: 40vw;
+        height: 15vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .box ul li {
+        width: 80vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .box ul li img{
+        width: 80vw;
+        height: 18vh;
+    }
+    .navigation{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+    }
+    .navigation ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+    }
+    .logo{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    .box ul li{
+        width: 80vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    .box ul li img{
+        width: 80vw;
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 262px) {
+    .box ul li{
+        width: 80vw;
+        height: 50vh;
+    }
+}
+
+/* Contact form */
+
+@media screen and (max-width: 996px) {
+    .contactelements li{
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 90vw;
+        margin-left: 0px;
+        padding-left: 6px;
+    }
+}
+
+@media screen and (max-width: 554px) {
+    .contactelements li #number{
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 60vw;
+        margin-left: 6px;
+        padding-left: 6px;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .contactelements li #number{
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 60vw;
+        margin-left: 0px;
+        padding-left: 6px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .contactelements li #name{
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 80vw;
+        margin-left: 0px;
+        padding-left: 6px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .contactelements li #email{
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 80vw;
+        margin-left: 0px;
+        padding-left: 6px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .medias{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .images{
+        display: block;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .images{
+        display: block;
+        justify-content: space-between;
+        width: 16px;
+        height: 16px;
+    }
+    .footer{
+        height: 54px;
+    }
+}
+
+
+
+
+
+
+
+

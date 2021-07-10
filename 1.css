@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+
+.header{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    z-index: 20;
+}
+
+/* image */
+
+.image img{
+    width: 100vw;
+    height: 50vh;
+    display: inline;
+}
+
+/* sidebar */
+
+.sidebar{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 60px;
+    right: 0px;
+    background-color: black;
+}
+
+.sidebar ul{
+    margin: 12px;
+    border: 2px solid white;
+}
+
+.sidebar ul li{
+    padding: 20px 33px;
+    list-style: none;
+    border: 2px solid white;
+}
+
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li :hover{
+    color: blue;
+}
+
+/* tutorial */
+
+.tut{
+    background-color: black;
+    color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* notes */
+
+.notes{
+    padding: 16px;
+    width: 100%;
+    background-color: #e5e4f9;
+}
+
+.notes .content{
+    margin: 16px;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.codes{
+    border: 3px solid blue;
+    border-radius: 6px;
+    background-color: #e3e2ff;
+    padding: 6px;
+    width: 60vw;
+    margin: auto;
+}
+
+.tutcodes{
+    padding: 6px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* buttons */
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e5e4f9;
+}
+
+.buttons ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.buttons ul li{
+    list-style: none;
+    padding: 30px;
+}
+
+.buttons ul li a{
+    text-decoration: none;
+    background-color: #cfd4ff;
+    padding: 6px 12px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.buttons ul li :hover{
+    background-color: black;
+    color: white;
+}
