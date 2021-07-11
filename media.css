@@ -12,8 +12,11 @@
 
 /* Navigation Bar */
 
-@media screen and (max-width: 387px) {
-    
+@media screen and (max-width: 490px) {
+    .navigation{
+        position: sticky;
+        top: 6px;
+    }
 }
 
 
