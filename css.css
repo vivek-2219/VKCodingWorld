@@ -29,7 +29,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     position: sticky;
-    top: 74px;
+    top: 75px;
     z-index: 101;
 }
 
