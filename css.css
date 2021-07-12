@@ -130,6 +130,7 @@ header{
 }
 
 .box ul li{
+    height: 70vh;
     list-style: none;
     width: 29vw;
     display: flex;
