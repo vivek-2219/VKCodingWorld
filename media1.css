@@ -1,0 +1,21 @@
+/* sidebar */
+
+@media screen and (max-width: 1200px) {
+    .sidebar{
+        flex-direction: column;
+        height: 69px;
+    }
+    .sidebar ul{
+        flex-direction: column;
+        padding-left: 0px;
+        display: none;
+    }
+    .sidebar ul li{
+        padding-left: 0px;
+    }
+    .burger{
+        display: block;
+        position: sticky;
+        z-index: 89;
+    }
+}
