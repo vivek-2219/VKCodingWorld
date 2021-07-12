@@ -24,12 +24,12 @@ header{
 
 /* .navigation */
 
-.navigation{
+.navigation {
     background-color: #584b4b;
     display: flex;
     flex-wrap: wrap;
     position: sticky;
-    top: 48px;
+    top: 75px;
     z-index: 101;
 }
 
