@@ -28,6 +28,23 @@
 
 /* sidebar */
 
+.burger{
+    display: none;
+    position: absolute;
+    right: 10%;
+    top: 9px;
+    cursor: pointer;
+    z-index: 89;
+    margin: 18px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
 .sidebar{
     float: right;
     display: flex;
@@ -67,6 +84,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 60px;
 }
 
 /* notes */
@@ -134,3 +153,4 @@
     background-color: black;
     color: white;
 }
+
