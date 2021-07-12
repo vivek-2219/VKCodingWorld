@@ -15,7 +15,7 @@
 @media screen and (max-width: 490px) {
     .navigation{
         position: sticky;
-        top: 74px;
+        top: 64px;
     }
 }
 
