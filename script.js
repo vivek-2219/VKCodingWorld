@@ -4,7 +4,7 @@ function toggleMenu(){
         navigation.style.height = '0vh';
     }
     else {
-        navigation.style.height = '100vh'
+        navigation.style.height = '30vh'
     }
 }
 
