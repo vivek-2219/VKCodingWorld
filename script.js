@@ -7,3 +7,5 @@ function toggleMenu(){
         navigation.style.height = '100vh'
     }
 }
+
+console.log('hello vivek')
