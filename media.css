@@ -64,15 +64,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 5vh;
+        height: 6vh;
     }
     .navigation ul{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        opacity: 0;
-    }
-    .logo{
         opacity: 0;
     }
     .burger{
